@@ -1,0 +1,38 @@
+stories:
+- story: career recommendation path
+  steps:
+    - intent: career_advice
+    - action: utter_ask_skills
+    - intent: inform
+      entities:
+        - skills: "programming"
+    - slot_was_set:
+        - skills: "programming"
+    - action: utter_ask_interests
+    - intent: inform
+      entities:
+        - interests: "robotics"
+    - slot_was_set:
+        - interests: "robotics"
+    - action: utter_ask_education
+    - intent: inform
+      entities:
+        - education: "masters"
+    - slot_was_set:
+        - education: "masters"
+    - action: utter_ask_work_style
+    - intent: inform
+      entities:
+        - work_style: "collaborative"
+    - slot_was_set:
+        - work_style: "collaborative"
+    - action: action_career_recommendation
+
+- story: provide work style
+  steps:
+    - intent: inform
+      entities:
+        - work_style: "independent"
+    - slot_was_set:
+        - work_style: "independent"
+    - action: utter_acknowledge_work_style

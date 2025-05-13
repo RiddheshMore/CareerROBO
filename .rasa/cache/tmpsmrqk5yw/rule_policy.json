@@ -1,0 +1,40 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mas_info\"}}]": "utter_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mas_info\"}}, {\"prev_action\": {\"action_name\": \"utter_info\"}, \"user\": {\"intent\": \"mas_info\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"application_deadlines\"}}]": "utter_deadlines",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"application_deadlines\"}}, {\"prev_action\": {\"action_name\": \"utter_deadlines\"}, \"user\": {\"intent\": \"application_deadlines\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_check\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_check\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_check\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"notification_timing\"}}]": "utter_notification",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"notification_timing\"}}, {\"prev_action\": {\"action_name\": \"utter_notification\"}, \"user\": {\"intent\": \"notification_timing\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"semester_fees\"}}]": "utter_fee",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"semester_fees\"}}, {\"prev_action\": {\"action_name\": \"utter_fee\"}, \"user\": {\"intent\": \"semester_fees\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"application_process\"}}]": "utter_application",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"application_process\"}}, {\"prev_action\": {\"action_name\": \"utter_application\"}, \"user\": {\"intent\": \"application_process\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mensa_menu\"}}]": "action_mensa",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mensa_menu\"}}, {\"prev_action\": {\"action_name\": \"action_mensa\"}, \"user\": {\"intent\": \"mensa_menu\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"admission_letter\"}}]": "utter_letter_of_admission",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"admission_letter\"}}, {\"prev_action\": {\"action_name\": \"utter_letter_of_admission\"}, \"user\": {\"intent\": \"admission_letter\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_requirements\"}}]": "utter_language_proficiency",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_requirements\"}}, {\"prev_action\": {\"action_name\": \"utter_language_proficiency\"}, \"user\": {\"intent\": \"language_requirements\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mas_requirements\"}}]": "utter_requirements",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mas_requirements\"}}, {\"prev_action\": {\"action_name\": \"utter_requirements\"}, \"user\": {\"intent\": \"mas_requirements\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mensa_menu\"}}, {\"prev_action\": {\"action_name\": \"action_mensa\"}, \"user\": {\"intent\": \"mensa_menu\"}}]",
+      "predicting default action with intent back",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_check\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_check\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_check\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mensa_menu\"}}]"
+    ]
+  }
+}

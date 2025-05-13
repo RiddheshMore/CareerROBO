@@ -1,0 +1,90 @@
+nlu:
+  - intent: career_advice
+    examples: |
+      - I need career advice
+      - Can you suggest a career for me?
+      - What job should I do?
+      - I am looking for career guidance
+      - Help me choose a career
+
+  - intent: inform
+    examples: |
+      - I have skills in [programming](skills)
+      - My skills include [design](skills) and [analysis](skills)
+      - I am skilled in [robotics](skills)
+      - My interest is in [robotics](interests)
+      - I completed my [masters](education) degree
+      - I prefer a [collaborative](work_style) work style
+      - I have experience in [machine learning](skills)
+      - My highest education level is [bachelors](education)
+      - I work better in an [independent](work_style) setting
+      - My preferred work style is [independent](work_style)
+      - I prefer an [independent](work_style) work style
+      - I like a [collaborative](work_style) environment
+      - My work style preference is [collaborative](work_style)
+      - I enjoy working in a [collaborative](work_style) team
+
+  - lookup: skills
+    examples: |
+      - programming
+      - design
+      - analysis
+      - robotics
+      - AI
+      - machine learning
+      - software development
+      - data science
+
+  - lookup: interests
+    examples: |
+      - robotics
+      - AI
+      - data science
+      - healthcare
+      - software engineering
+      - finance
+
+  - lookup: education
+    examples: |
+      - bachelors
+      - masters
+      - PhD
+      - diploma
+      - associate degree
+
+  - lookup: work_style
+    examples: |
+      - collaborative
+      - independent
+      - team-based
+      - remote work
+
+  - synonym: programming
+    examples: |
+      - coding
+      - software development
+      - scripting
+
+  - synonym: design
+    examples: |
+      - UX/UI design
+      - graphic design
+      - creative design
+
+  - synonym: analysis
+    examples: |
+      - data analysis
+      - business analysis
+      - analytical thinking
+
+  - synonym: collaborative
+    examples: |
+      - teamwork
+      - cooperative
+      - group work
+
+  - synonym: independent
+    examples: |
+      - self-directed
+      - individual work
+      - solo work

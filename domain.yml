@@ -1,0 +1,98 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - feeling_good
+  - feeling_bad
+  - affirm
+  - deny
+  - bad_language
+  - career_advice
+  - inform
+  - ask_subjects
+  - fallback
+
+entities:
+  - skills
+  - interests
+  - education
+  - work_style
+
+slots:
+  skills:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: skills
+  interests:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: interests
+  education:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: education
+  work_style:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: work_style
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_default:
+    - text: "I'm sorry, I didn't understand that."
+
+  utter_subjects:
+    - text: "What subjects are you interested in?"
+
+  utter_feeling_good:
+    - text: "I'm glad to hear that! How can I help you today?"
+  
+  utter_feeling_bad:
+    - text: "I'm sorry to hear that. How can I help you today?"
+  
+  utter_not_found:
+    - text: "I'm sorry, I didn't understand that. Can you please rephrase?"
+  
+  utter_bad_language:
+    - text: "Please refrain from using bad language."
+    
+  utter_ask_skills:
+    - text: "What are your technical skills? (e.g., programming, analysis, design)"
+
+  utter_ask_interests:
+    - text: "What are your field interests? (e.g., robotics, software, hardware)"
+
+  utter_ask_education:
+    - text: "What is your highest education level? (e.g., bachelors, masters, PhD)"
+
+  utter_ask_work_style:
+    - text: "What is your preferred work style? (e.g., collaborative, independent)"
+  
+  utter_acknowledge_work_style:
+    - text: "Got it! Your work style preference is noted."
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_subjects 
+  - utter_feeling_good
+  - utter_feeling_bad
+  - utter_not_found
+  - utter_bad_language
+  - utter_ask_skills
+  - utter_ask_interests
+  - utter_ask_education
+  - utter_ask_work_style
+  - action_career_recommendation
+  - utter_acknowledge_work_style

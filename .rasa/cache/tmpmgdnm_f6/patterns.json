@@ -1,0 +1,6 @@
+[
+  {
+    "name": "skills",
+    "pattern": "(\\bprogramming\\b|\\bdesign\\b|\\banalysis\\b|\\bdata\\ science\\b|\\brobotics\\b|\\bsoftware\\ development\\b|\\bAI\\b|\\bML\\b)"
+  }
+]

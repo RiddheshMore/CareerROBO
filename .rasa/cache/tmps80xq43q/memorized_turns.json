@@ -1,0 +1,23 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtitENgCAMBVdhACdgFWOaCjUSpRha+SHsbo3+vLzL3dzH5PpVqQEGTYW9698Bxkze/XAmUWJrb6FqTWJDNS0HYGzIgSJk1J1sUhDYSoVa1vLCGMsDK6Aomw==": "utter_advanced_mathematics_for_robotics",
+    "eJydjVEKgDAMQ6+yA3iCXUWk1Flx6Drpqj/Du1vRf8WfkEdC0tajcXUV2gGDxsze1dsAYyLvHlhiUWLrboXEOpEN1eIyAw47cqABEupEJjEUGLOA5D5fcLx8bKokH2b+vncnR5ZaOw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLTU1JzMvPT4pMaW2NhYAlZcdzg==": "utter_feeling_bad",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLTU1JzMvPT4pMaWWgEmlJSWpRfHIGvCbFgsANVI7cg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnJ9bUFqSWhRfllkMVFtbGwsAljAhcg==": "utter_computer_vision",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnJ9bUFqSWhRfllkMVFtLwMTSEpBadE3EmRwLAIFDRMA=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fWpafUwpSlVhUGZ+cn1tQWpII4tbWxgIA1pIlTw==": "utter_evolutionary_computation",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fWpafUwpSlVhUGZ+cn1tQWpII4tYSMLq0pCS1CLduEu2KBQCQbVBX": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fXJqUlZpcUlxbGwsAtVUebw==": "utter_subjects",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fXJqUlZpcUlxLwKjSkpLUIoRqAmbFAgAVLTu3": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLTU1JzMvPT49Pz+ltjYWALRMHlA=": "utter_feeling_good",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLTU1JzMvPT49Pz+lloBRpSUlqUXxKDoImBcLAPnsPPg=": "action_listen",
+    "eJwtisEJwCAMAFdxgE7gKqWEYIOE2igm9SPu3kD7u+Nun2sLs3UagMm4SgzzAxC8KYZfCquR+PsodX9YXM2zXoAnNuNBoJwFC7ReE6my5LWOFxuvJdM=": "utter_adaptive_signal_processing",
+    "eJyVjVEKgDAMQ6+yA3iCXUWkFC2jOOtYu/2M3d2Bfiv+JeQlmVufXEuZKuBqfIp37RYgeJB3j4msRjLYopQHwzKsjVh3wA2TcSVQDoIRUj5XUmUJ/WO8mFF+6//+Wy46AVHj": "action_listen"
+  }
+}

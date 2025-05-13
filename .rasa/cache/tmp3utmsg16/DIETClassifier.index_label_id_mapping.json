@@ -1,0 +1,21 @@
+{
+  "0": "affirm",
+  "1": "ask_adaptive_signal_processing",
+  "2": "ask_advanced_mathematics_for_robotics",
+  "3": "ask_computer_vision",
+  "4": "ask_evolutionary_computation",
+  "5": "ask_fault_detection_diagnosis",
+  "6": "ask_learning_adaptivity",
+  "7": "ask_mobile_manipulation",
+  "8": "ask_multiagent_agent_systems",
+  "9": "ask_neural_networks",
+  "10": "ask_probabilistic_reasoning",
+  "11": "ask_subjects",
+  "12": "bad_language",
+  "13": "deny",
+  "14": "fallback",
+  "15": "feeling_bad",
+  "16": "feeling_good",
+  "17": "goodbye",
+  "18": "greet"
+}

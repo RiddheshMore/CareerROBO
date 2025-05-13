@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-education",
+      "2": "I-education",
+      "3": "L-education",
+      "4": "U-education",
+      "5": "B-interests",
+      "6": "I-interests",
+      "7": "L-interests",
+      "8": "U-interests",
+      "9": "B-skills",
+      "10": "I-skills",
+      "11": "L-skills",
+      "12": "U-skills",
+      "13": "B-work_style",
+      "14": "I-work_style",
+      "15": "L-work_style",
+      "16": "U-work_style",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-education": 1,
+      "I-education": 2,
+      "L-education": 3,
+      "U-education": 4,
+      "B-interests": 5,
+      "I-interests": 6,
+      "L-interests": 7,
+      "U-interests": 8,
+      "B-skills": 9,
+      "I-skills": 10,
+      "L-skills": 11,
+      "U-skills": 12,
+      "B-work_style": 13,
+      "I-work_style": 14,
+      "L-work_style": 15,
+      "U-work_style": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

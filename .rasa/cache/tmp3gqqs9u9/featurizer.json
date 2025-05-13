@@ -1,0 +1,70 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "ask_subjects": 1,
+        "back": 2,
+        "bad_language": 3,
+        "career_advice": 4,
+        "deny": 5,
+        "fallback": 6,
+        "feeling_bad": 7,
+        "feeling_good": 8,
+        "goodbye": 9,
+        "greet": 10,
+        "inform": 11,
+        "nlu_fallback": 12,
+        "out_of_scope": 13,
+        "restart": 14,
+        "session_start": 15
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_greet": 13,
+        "utter_goodbye": 14,
+        "utter_default": 15,
+        "utter_subjects": 16,
+        "utter_feeling_good": 17,
+        "utter_feeling_bad": 18,
+        "utter_not_found": 19,
+        "action_career_recommendation": 20,
+        "utter_ask_education": 21,
+        "utter_ask_interests": 22,
+        "utter_ask_skills": 23,
+        "utter_ask_work_style": 24,
+        "utter_bad_language": 25
+      },
+      "entities": {
+        "education": 0,
+        "interests": 1,
+        "skills": 2,
+        "work_style": 3
+      },
+      "slots": {
+        "skills_0": 0,
+        "interests_0": 1,
+        "education_0": 2,
+        "work_style_0": 3
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

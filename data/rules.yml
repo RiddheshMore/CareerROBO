@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - career_advice
+  - inform
+
+entities:
+  - skills
+  - interests
+  - education
+  - work_style
+
+slots:
+  skills:
+    type: text
+    influence_conversation: false
+  interests:
+    type: text
+    influence_conversation: false
+  education:
+    type: text
+    influence_conversation: false
+  work_style:
+    type: text
+    influence_conversation: false
+
+responses:
+  utter_ask_skills:
+    - text: "What are your technical skills? (e.g., programming, analysis, design)"
+
+  utter_ask_interests:
+    - text: "What are your field interests? (e.g., robotics, software, hardware)"
+
+  utter_ask_education:
+    - text: "What is your highest education level? (e.g., bachelors, masters, PhD)"
+
+  utter_ask_work_style:
+    - text: "What is your preferred work style? (e.g., collaborative, independent)"
+
+actions:
+  - action_career_recommendation
